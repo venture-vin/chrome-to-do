@@ -1,0 +1,27 @@
+{
+  "manifest_version": 2,
+
+  "name": "To-Do App",
+  "description": "Extension for creating to-do lists",
+  "version": "1.0",
+
+  //Custom
+  "permissions": [
+          "storage"
+        ],
+  // "icons": { "16": "images/taylor_16.png",
+  //      "48": "images/taylor_48.png",
+  //     "128": "images/taylor_128.png" },
+  //////
+
+  "browser_action": {
+    "default_popup": "panel.html",
+    "default_title": "ToDo"
+  },
+
+  "permissions": [
+    "tabs",
+    "https://ajax.googleapis.com/",
+    "storage"
+  ]
+}
